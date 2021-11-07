@@ -5,7 +5,7 @@
     <div class="container mt-3">
         <div class="text-right">
         <a class="btn btn-success pull-right" href="{{ route('shoe.create') }}">
-            <i class="fas fa-arrow-alt-circle-right"></i>Add new Shoe</a>
+            <i class="fas fa-arrow-alt-circle-right"></i>+</a>
         </div>
 
         <br>
@@ -21,6 +21,7 @@
             </tr>
 
             {{-- karena bentuknya array  --}}
+            {{-- $shoe dari shoeController --}}
             @foreach ($shoe as $sho)
 
             <tr>

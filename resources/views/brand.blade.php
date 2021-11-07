@@ -5,7 +5,7 @@
     <div class="container mt-3">
         <div class="text-right">
         <a class="btn btn-success pull-right" href="{{ route('brand.create') }}">
-            <i class="fas fa-arrow-alt-circle-right"></i>Add new Brand</a>
+            <i class="fas fa-arrow-alt-circle-right"></i>+</a>
         </div>
 
         <br>
